@@ -1,0 +1,9 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-system
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: voucher
+  description: 出票系統
+spec:
+  owner: devops-team
+#  domain: e-commerce

@@ -1,0 +1,9 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-location
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: all-resources
+  description: A collection of all Backstage example resources
+spec:
+  targets:
+    - ./resources/resource-*.yaml

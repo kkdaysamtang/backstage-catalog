@@ -1,0 +1,12 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-resource
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: kkdb
+  description: KKDB 最早建立的資料庫
+  tags:
+    - postgres
+spec:
+  type: database
+  owner: devops-team
+  system: order

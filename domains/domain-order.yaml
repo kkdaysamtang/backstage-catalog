@@ -1,0 +1,8 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format/#kind-domain
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: order
+  description: 訂單
+spec:
+  owner: order-team
