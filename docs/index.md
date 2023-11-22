@@ -12,7 +12,7 @@
 軟體生命週期分為多個階段，包含開發、測試、部屬等等，在每個階段都有專門負責的部門，要如何讓各部門人員能夠緊密協同作業，就需要可遵循的工作架構，而 DevOps 就是一種軟體開發架構，負責讓開發者 (Dev) 和維運人員 (Ops) 合作之間更順暢，不僅能加速整個開發過程，也能有效降低協作成本。
 
 
-![devops-toolchain](~@source/assets/img/devops-chain.svg)
+![devops-toolchain](~/assets/img/devops-chain.svg)
 
 
 實現 devops 其中一種方式, 實踐 SRE (Site Reliability Engineering)
