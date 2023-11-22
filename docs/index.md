@@ -100,3 +100,11 @@
 [DevOps - 90 day of devops](https://github.com/MichaelCade/90DaysOfDevOps)      
 [DevOps 是什麼？](https://blog.cloud-ace.tw/application-modernization/devops/what-is-devops-how-google-use-sre/)       
 [那些年我們做過的 DevOps Pipeline](https://speakerdeck.com/cheng_wei_chen/na-xie-nian-wo-men-zuo-guo-de-devops-pipeline?slide=65)       
+
+```kroki-mermaid
+sequenceDiagram
+GitLab->>Kroki: Request rendering
+Kroki->>Mermaid: Request rendering
+Mermaid-->>Kroki: Image
+Kroki-->>GitLab: Image
+```
